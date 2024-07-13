@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body-background">
+    <header class="header">
+        <img src="img/Ld2ARgqcaH5bYh7zWk-2p-transformed.jpeg" alt="Personal Image">
+        <div class="container1">
+            <h1 class="logo">TravelBooking</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="flight booking.html">Flights</a></li>
+                    <li><a href="#hotel-booking">Hotels</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container2">
+        <!-- Hotel Booking Form -->
+    <div id="hotel-booking" class="hotel-booking">
+        <h2 class="section-title">Book a Hotel</h2>
+        <form id="hotelBookingForm">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="hotelLocation">Location</label>
+                    <input type="text" class="form-control" id="hotelLocation" placeholder="Enter hotel location">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="checkInDate">Check-in Date</label>
+                    <input type="date" class="form-control" id="checkInDate">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="checkOutDate">Check-out Date</label>
+                    <input type="date" class="form-control" id="checkOutDate">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="numberOfGuests">Number of Guests</label>
+                    <input type="number" class="form-control" id="numberOfGuests" min="1">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Search Hotels</button>
+        </form>
+    </div>
+</body>
+</html>

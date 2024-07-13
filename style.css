@@ -99,7 +99,6 @@ header nav a:hover {
 }
 
 .h2 {
-    padding-bottom: 30%;
     font-size: 1.5rem; /* Ukuran font untuk teks */
     color: #555; /* Warna teks */
     opacity: 0; /* Mulai dengan opacity 0 */
@@ -136,6 +135,7 @@ header nav a:hover {
 .flight-search {
     color: #fff;
     backdrop-filter: blur(5px);
+    padding-right: auto;
     padding: 75px; /* Padding dari bagian pencarian */
     border-style: solid;
     border-color: #333;
@@ -176,6 +176,7 @@ header nav a:hover {
 }
 
 .hotel-booking {
+    padding-right: auto;
     max-width: 1200px; /* Lebar maksimum konten utama */
     margin: 0 auto; /* Margin otomatis pada sisi kiri dan kanan */
     padding: 20px; /* Padding konten utama */
