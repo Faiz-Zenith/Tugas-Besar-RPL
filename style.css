@@ -226,6 +226,45 @@ header nav a:hover {
     background-color: #0056b3; /* Warna background saat hover */
 }
 
+/*tambahan css */
+.seat-selection, .booking-actions {
+    color: #fff;
+    backdrop-filter: blur(5px);
+    padding: 75px;
+    border-style: solid;
+    border-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-top: 10px;
+    display: none; /* Mulai dengan display none, akan ditampilkan saat diperlukan */
+}
+
+.seat-selection .form-group, .booking-actions .form-group {
+    margin-bottom: 20px;
+}
+
+#flight-results, #hotel-results {
+    margin-top: 20px;
+}
+
+.search-results {
+    margin-top: 20px;
+}
+
+.search-results ul {
+    list-style-type: none;
+}
+
+.search-results ul li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.search-results ul li:hover {
+    background-color: #f0f0f0;
+}
 
 @media only screen and (max-width: 768px) {
 	main {

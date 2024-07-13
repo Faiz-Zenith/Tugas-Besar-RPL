@@ -1,0 +1,7 @@
+[
+    { "id": 1, "source": "Jakarta", "destination": "Bali", "date": "2024-08-01", "seatsAvailable": 150 },
+    { "id": 2, "source": "Surabaya", "destination": "Yogyakarta", "date": "2024-08-02", "seatsAvailable": 120 },
+    { "id": 3, "source": "Bali", "destination": "Jakarta", "date": "2024-08-03", "seatsAvailable": 130 },
+    { "id": 4, "source": "Yogyakarta", "destination": "Surabaya", "date": "2024-08-04", "seatsAvailable": 110 },
+    { "id": 5, "source": "Bandung", "destination": "Medan", "date": "2024-08-05", "seatsAvailable": 100 }
+]
