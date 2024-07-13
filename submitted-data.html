@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Booking</title>
+    <title>Submitted Data</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="body-background">
@@ -13,7 +13,7 @@
             <h1 class="logo">TravelBooking</h1>
             <nav>
                 <ul class="nav-links">
-                    <li><a href="#home">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="flight booking.html">Flights</a></li>
                     <li><a href="Hotel.html">Hotels</a></li>
                     <li><a href="submitted-data.html">Submitted Data</a></li>
@@ -22,11 +22,17 @@
             </nav>
         </div>
     </header>
-   <!-- Main content -->
-    <div class="h12">
-   <h1 class="h1">Welcome to TravelBooking</h1>
-   <p class="h2">Search and book flights and hotels easily.</p>
-    </div>
+
+    <main>
+        <div class="container2">
+            <h2 class="section-title">Submitted Flights</h2>
+            <ul id="flightList"></ul>
+    
+            <h2 class="section-title">Submitted Hotels</h2>
+            <ul id="hotelList"></ul>
+        </div>
+    </main>
+
+    <script src="submitted-data.js"></script>
 </body>
-<script src="script.js"></script>
 </html>

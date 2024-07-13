@@ -1,8 +1,0 @@
-[
-    { "id": 1, "name": "Luxury Hotel", "location": "Bali", "price": 200, "availableRooms": 20 },
-    { "id": 2, "name": "Comfort Inn", "location": "Yogyakarta", "price": 100, "availableRooms": 30 },
-    { "id": 3, "name": "Seaside Resort", "location": "Jakarta", "price": 150, "availableRooms": 25 },
-    { "id": 4, "name": "Mountain Lodge", "location": "Bandung", "price": 120, "availableRooms": 15 },
-    { "id": 5, "name": "City View Hotel", "location": "Surabaya", "price": 90, "availableRooms": 35 },
-    { "id": 6, "name": "Beachfront Villa", "location": "Bali", "price": 300, "availableRooms": 10 }
-]
